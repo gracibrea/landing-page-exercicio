@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Raleway:wght@300&display=swap')
+;
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap');
+
+:root {
+    --fonte1: 'Quicksand', sans-serif;
+    --fonte2: 'Oxygen', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;      
+}
+
+header {
+    display: flex;
+    justify-content: space-between;    
+    height: 70px;
+    align-items: center;
+    padding: 25px;    
+}
+
+.menu li{
+    font-family: var(--fonte2);
+    color: black;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.logo {
+    font-family: var(--fonte2)
+}
+
+h1 {
+    font-family: var(--fonte2);
+    font-size: 4.5em;
+    color: white;
+    text-align: center;
+    padding: 50px 30px 150px 30px;
+}
+
+.banner {
+    background-image: url(/images/banner400_1200.jpg); 
+    background-position: center center;   
+    max-width: 100%;
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner > p {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: var(--fonte2);
+}
+
+ li {
+     list-style: none;
+ }
+
+ a {
+     text-decoration: none;
+     color: black;
+ }
+
+ .menu {
+     display: flex;
+     font-family: 'Quicksand', sans-serif;     
+ }
+
+ .flex {
+     max-width: 1000px;
+     display: flex;
+     flex-wrap: wrap;
+     margin: 0 auto;     
+ }
+
+ .flex > div {
+    flex: 1 1 300px;/*flex-grow, flex-shrink, flex-basis*/
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+ }
+ h3 {
+     font-family: var(--fonte2);
+ }
+.flex > div > p {
+     font-family: var(--fonte1);
+     font-weight: bold;
+     padding: 5px 0;
+ }
+
