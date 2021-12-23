@@ -41,7 +41,7 @@ h1 {
 }
 
 .banner {
-    background-image: url(./images/banner400_1200.jpg); 
+    background-image: url(../images/banner400_1200.jpg); 
     background-position: center center;   
     max-width: 100%;
     min-height: 400px;
